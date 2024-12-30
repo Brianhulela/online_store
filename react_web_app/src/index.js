@@ -12,21 +12,7 @@ const theme = createTheme({
     fontFamily: 'Inter, Arial, sans-serif',  // Set the Inter font here
   },
   palette: {
-    mode: 'light',  // Set mode to 'light' for light mode
-    primary: {
-      main: '#f58a07 ',  // Set the primary color
-    },
-    secondary: {
-      main: '#0d1821',  // Set the secondary color
-    },
-    background: {
-      default: '#d3d0cb',  // Light background color
-      paper: '#d3d0cb ',  // Color for card and paper-like components
-    },
-    text: {
-      primary: '#0d1821',  // Primary text color
-      secondary: '#d3d0cb',  // Secondary text color
-    },
+    mode: 'dark',  // Set mode to 'light' for light mode
   },
 });
 
